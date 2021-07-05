@@ -8,11 +8,11 @@ from colorama import Fore, Style
 
 #Put your token in the quotation marks
 
-token = "Nzk4NjEzMDgzMTkwMzI5NDA2.YDE1cA.rnmUMAtni58KpXy9opMdrWUsr2w"
+token = ""
 
 #Put your prefix in the quotation marks
 
-prefix = "¥"
+prefix = ""
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix=prefix, self_bot=True, intents=intents)
